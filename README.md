@@ -21,7 +21,7 @@ export MODEL="medium"       #The Whisper model to load; see below for options>
 export SPEAKER_RECOGNITION=False    #Experimental: Enable support for speaker segmentation files>
 
 # Run the program
-python3 main.py
+python3 src/main.py
 ```
 In future, Docker images will be available to easily deploy it on a server.
 
