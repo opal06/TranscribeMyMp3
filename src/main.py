@@ -23,8 +23,8 @@ def runTranscriberSegments(in_file, model_size, start_time, stop_time):
     return result["text"]
 
 def main():
-    in_dir = Path(os.environ["INPUT_DIR"])
-    out_dir = Path(os.environ["OUTPUT_DIR"])
+    in_dir = Path(os.environ["INPUT_DIR"]) if os.environ["INPUT_DIR"] else Path("/input")
+    out_dir = Path(os.environ["OUTPUT_DIR"]) if os.environ["OUTPUT_DIR"] else Path("/output")
     model_size = os.environ["MODEL"]
     use_segments = os.environ["SPEAKER_RECOGNITION"]
 
