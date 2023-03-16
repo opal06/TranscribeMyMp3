@@ -8,7 +8,7 @@ Inspired by [ocrmypdf-auto](https://github.com/cmccambridge/ocrmypdf-auto/tree/m
 git clone https://github.com/opal06/TranscribeMyMp3.git && cd TranscribeMyMp3/
 
 # Optional: Create a python virtual environment and enter it
-python3 -m venv ./.venv
+python3.10 -m venv ./.venv
 source .venv/bin/activate
 
 # Install dependencies
