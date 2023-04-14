@@ -35,7 +35,7 @@ def main():
         filetype_filter = [".rttm"]
     else:
         use_segments = False
-        filetype_filter = [".mp3", ".wav"]
+        filetype_filter = [".mp3", ".m4a", ".wav"]
 
 
     notifier = inotify.adapters.Inotify()
